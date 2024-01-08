@@ -1,15 +1,10 @@
 /* shared style */
 body{
     font-family: 'Merriweather', serif;
-    /* margin-left: 140px;
-    margin-right: 140px;
-      */
-    /* padding-left: 10%;
-    padding-right: 10%; */
+    
 }
 
 .header{
-    /* background-image: url(../image/resources/Banner\ Image.png);  */
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../image/resources/Banner\ Image.png'); 
     align-items: center;
     background-position: center;
@@ -47,3 +42,34 @@ body{
     padding-right: 344px;
     padding-bottom: 177px;
 }
+/* off styles */
+    img{
+        
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+         
+    }
+    .off{
+        text-align: center;
+        color: #ff0000;
+        font-family: "Inter-Bold", Helvetica;
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .holiday-deals{
+        text-align: center;
+        color: #ff0000;
+        font-family: "Inter-Medium", Helvetica;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .categories{
+        text-align: center;
+        font-family: "Inter-Bold", Helvetica;
+        color: #070211;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+
