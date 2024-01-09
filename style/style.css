@@ -127,6 +127,7 @@ body{
         border-radius: 10px;
         width: 90%;
         height: 600px; 
+        
        
         
         
@@ -183,7 +184,67 @@ body{
     .description-of-2024{
         display: flex;
         align-items: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .happy-2 img{
+        padding: 10px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 10px solid red;
+    }
+    .happy-1{
+        padding-right: 20px;
         
     }
+    .happy-3{
+        padding-left: 90px;
+    }
+    .happy-3 img{
+        padding-top: 30px;
+
+    }
+    .gifts{
+        color: #F00;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 800;
+        
+    }
+    .port{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        
+    }
+    .port-describe{
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .item-container{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 24px;
+        cursor: pointer;
+        
+}
+.item-container > div{
+    padding-left: 5px;
+    row-gap: 24px;
+}
+.item-container > div:hover{
     
-    
+    background-color:rgb(231, 214, 181);
+    border-radius: 2%;
+}
+.awesome-port{
+    margin: 20px 60px;
+}
+ 
